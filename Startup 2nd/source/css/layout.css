@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color: rgba(255,0,0,0.1);*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+}
+
+.container {
+  width: 920px;
+  max-width: 920px;
+}
+
+.row,
+.column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.equal {
+  flex: 1;
+}
+
+.center {
+  justify-content: center;
+}
+
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 0;
+  background-color: #0a74b9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button {
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 0;
+  background-color: #0a74b9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+
+.button.ghost {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+
+button.ghost.light {
+  border: 2px solid #fff;
+}
+
+button.ghost.light:hover {
+  background-color: white;
+  color: #1c1c1c;
+}
+
+button.ghost.dark {
+  border: 2px solid #1c1c1c;
+  color: #1c1c1c;
+}
+
+button.ghost.dark:hover {
+  background-color: #1c1c1c;
+  color: whitesmoke;
+}
+
+.button.ghost.dark {
+  border: 2px solid #1c1c1c;
+  color: #1c1c1c;
+}
+
+.button.ghost.dark:hover {
+  background-color: #1c1c1c;
+  color: whitesmoke;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.777rem;
+  line-height: 2.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.333rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light {
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}

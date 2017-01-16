@@ -1,0 +1,41 @@
+#events {
+  background-color: #ecf0f1;
+  padding: 5rem 1rem;
+}
+
+.event-date {
+  margin: 0.25rem 0;
+}
+
+.event-date > .cal {
+  width: 3rem;
+  border-radius: 0.25rem;
+  background-color: #4a4a4a;
+  /*background-color: rgb(255, 188, 0);*/
+  color: white;
+}
+
+.event-date > .cal.inverted {
+  background-color: white;
+  /*background-color: rgb(255, 188, 0);*/
+  color: #4a4a4a;
+}
+
+.cal > .day {
+  font-size: 2rem;
+}
+
+.event-date > .description {
+  width: calc(100% - 3.5rem);
+  padding: 0 1rem;
+}
+
+.event-date > .description.inverted {
+  color: whitesmoke;
+}
+
+.event-date a {
+  color: whitesmoke;
+  text-decoration: none;
+  width: 150px;
+}

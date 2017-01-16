@@ -1,0 +1,114 @@
+.hidden-lg {
+  display: none !important;
+}
+
+@media screen and (max-width:48em) {
+  body {
+    font-size: 14px;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  .hidden-sm {
+    display: block!important;
+  }
+  .hidden-md {
+    display: block !important;
+  }
+  .container {
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+  .container.row {
+    flex-direction: column;
+  }
+  .events.row {
+    flex-direction: column;
+  }
+  nav {
+    height: 54px;
+  }
+  .row.strenghts {
+    flex-direction: column;
+  }
+  #hero-video .overlay {
+    background-image: url(../img/bg.png);
+  }
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .support {
+    font-size: 1.25rem;
+  }
+  #sectors.row {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #cowork {
+    height: auto;
+    padding: 1rem;
+  }
+  #cowork > .text {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  #platform {
+    padding: 2rem 1rem;
+    justify-content: flex-start;
+  }
+  #on {
+    width: 75px;
+  }
+  #events {
+    padding: 2rem 1rem;
+  }
+  #promo,
+  #hero-video {
+    height: 350px;
+  }
+  #partners {
+    padding: 2rem 1rem 0.5rem 1rem;
+  }
+  #logos > .logo {
+    width: 50%;
+  }
+  #contact.row {
+    flex-direction: column;
+  }
+  footer.row {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+  footer .nav {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:62em) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .hidden-sm {
+    display: block !important;
+  }
+  .hidden-md {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width:75em) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .hidden-sm {
+    display: none !important;
+  }
+  .hidden-md {
+    display: none !important;
+  }
+  .hidden-lg {
+    display: block !important;
+  }
+}

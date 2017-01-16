@@ -1,0 +1,53 @@
+#hero-video {
+  height: 100vh;
+  position: relative;
+}
+
+#hero-video > .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -99;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  background-position: center;
+  transition: 1s opacity;
+}
+
+#hero-video > video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.hero-title {
+  color: whitesmoke;
+  font-size: 4.209rem;
+  line-height: 5rem; 
+  font-weight: 600;
+}
+
+.support {
+  color: whitesmoke;
+  font-size: 1.777rem;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+
+#next-event {
+  align-items: flex-end;
+}

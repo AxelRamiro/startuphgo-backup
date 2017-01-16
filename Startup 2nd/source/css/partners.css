@@ -1,0 +1,16 @@
+#partners {
+  background-color: #ecf0f1;
+  padding: 5rem 1rem;
+  max-width: 100%;
+}
+
+#logos > .logo {
+  width: 25%;
+  height: 75px;
+  margin: 1rem 0;
+}
+
+.logo > img {
+  max-height: 75px;
+  max-width: 90%;
+}

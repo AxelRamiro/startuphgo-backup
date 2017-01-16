@@ -1,0 +1,12 @@
+footer {
+  padding: 3.75rem 1.25rem;
+  background-color: white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.nav {
+  margin-right: 5rem;
+}

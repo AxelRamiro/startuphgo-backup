@@ -1,0 +1,17 @@
+.testimonial
+  display:flex
+  align-items: center
+  flex-direction: column
+  .avatar
+    width: $base-line-height * 2
+    height: $base-line-height * 2
+    border-radius: 50%
+    border: 1px solid color()
+  .name
+    @include type-setting(1)
+  .quote
+    @include type-setting(0)
+    &:before
+      content:"''"
+    &:after
+      content:"''"

@@ -1,0 +1,10 @@
+#promo {
+  background-image: url(../img/love_pachuca.jpg);
+  background-size: cover;
+  height: calc(100vh - 64px);
+}
+
+#promo > .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}

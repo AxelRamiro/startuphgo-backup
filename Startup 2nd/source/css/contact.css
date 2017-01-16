@@ -1,0 +1,16 @@
+/*#contact {
+  padding-top: 3rem;
+}*/
+
+#map {
+  background-image: url(../img/map.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 12.5rem;
+}
+
+#contact-info {
+  background-color: #0a74b9;
+  padding: 1.25rem;
+  color: whitesmoke;
+}

@@ -1,0 +1,30 @@
+$base-font-size: 1rem
+$base-line-height: $base-font-size * 1.25
+
+$line-heights: (-1:$base-line-height, 0:$base-line-height, 1:$base-line-height * 2, 2:$base-line-height * 2)
+
+$type-scale: (-1:0.75rem, 0: 1rem, 1:1.333rem,2:1.777rem)
+
+@function type-scale($level)
+  @return map-get($type-scale, $level)
+  
+@function line-height($level)
+  @return map-get($line-heights, $level)
+  
+@mixin type-setting($level: 0)
+  font-size: type-scale($level)
+  line-height: line-height($level)
+  
+.text-center
+  text-align: center
+  
+body
+  font-family: sans-serif
+  font-weight:100
+  
+h1
+  @include type-setting(2)
+  margin:0
+p
+  @include type-setting(0)
+  margin: $base-line-height 0
